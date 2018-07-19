@@ -6,7 +6,7 @@ tf.set_random_seed(777)  # for reproducibility
 xy = np.loadtxt('lab5_2.csv', delimiter=',', dtype=np.float32)
 x_data = xy[:, 0:-1]
 y_data = xy[:, [-1]]
-
+print(xy)
 print(x_data.shape, y_data.shape)
 
 # placeholders for a tensor that will be always fed.
